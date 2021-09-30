@@ -1,0 +1,112 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: sticky;
+  background-color: rgb(221, 221, 221);
+  border-bottom: 1px solid gray;
+  z-index: 100;
+  width: 100%;
+  top: 0;
+}
+
+.header__icon {
+  flex: 0.1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 40px;
+  margin-top: 3px;
+  object-fit: contain;
+  height: 65px;
+  cursor: pointer;
+}
+
+.header_left {
+  flex: 0.2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header_left > h1 {
+  margin-top: 3px;
+  margin-bottom: 3px;
+  margin-left: -110px;
+  font-size: 25px;
+  font-weight: 700;
+  color: #e1b93f;
+  cursor: pointer;
+}
+
+.header_midd {
+  flex: 0.15;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 6px;
+  margin-left: -40px;
+}
+
+.header_midd > p {
+  font-size: 17px;
+}
+
+.header_right {
+  flex: 0.75;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+  margin-top: 5px;
+  color: black;
+  cursor: pointer;
+}
+
+.header_right ul {  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: -15px;
+  cursor: pointer;
+}
+
+.header_right ul li {
+  width: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  margin-left: 35px;
+  font-size: 17px;
+}
+
+.header_right ul li a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  text-decoration: none;
+}
+
+.header_right ul li:hover {
+  background-color: #e1b93f;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+
+.header_right > button {
+  margin-top: -10px;
+  width: 120px;
+  color: white;
+  background-color: #e1b93f;
+  margin-left: 30px;
+  font-weight: 500;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.header_right > button:hover {
+  color: white;
+  background-color: #c29f37;
+}
