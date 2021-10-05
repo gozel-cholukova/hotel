@@ -1,0 +1,77 @@
+.morad > h1 {
+  padding-top: 20px;
+  padding-bottom: 15px;
+  margin-bottom: 0;
+  color: black;
+  border-top: 1px solid gray;
+}
+
+.morad > h3 {
+  margin-top: -20px;
+  padding-bottom: 15px;
+  margin-bottom: 0;
+  color: gray;
+  font-size: 21px;
+}
+
+.icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  cursor: pointer;
+}
+
+.emoji0,
+.emoji1,
+.emoji2,
+.emoji3,
+.emoji4,
+.emoji5,
+.emoji6,
+.emoji7,
+.emoji8,
+.emoji9  {
+  color: #e1b93f;
+  font-size: 45px;
+  /* margin-left: -10px; */
+}
+
+/* .emoji4 {
+}
+
+.emoji5 {
+ 
+}
+
+.emoji6 {
+}
+
+.emoji7 {
+ 
+} */
+
+.emoji8 {
+  color: #e1b93f;
+  font-size: 45px;
+}
+
+.emoji9 {
+  color: #e1b93f;
+  font-size: 45px;
+}
+
+.icon1 > h3, 
+.icon2 > h3, 
+.icon3 > h3, 
+.icon4 > h3,
+.icon5 > h3, 
+.icon6 > h3, 
+.icon7 > h3, 
+.icon8 > h3,
+.icon9 > h3, 
+.icon10 > h3 {
+  /* margin-left: -40px; */
+  color: black;
+}
