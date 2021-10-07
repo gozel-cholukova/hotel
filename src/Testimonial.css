@@ -1,0 +1,61 @@
+.testimonial .slick-arrow.slick-prev,
+.testimonial .slick-arrow.slick-next {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+  border-radius: 5px;
+}
+
+.slick-prev::before,
+.slick-next::before {
+  display: none;
+}
+
+.slick-arrow.slick-next {
+  right: -70px;
+}
+
+.slick-arrow.slick-prev {
+  left: -70px;
+}
+
+.testi {
+  background-color: #bc9b6a;
+  padding-bottom: 25px;
+}
+
+.testi > h1 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 0;
+  color: black;
+}
+
+.kart > p {
+  font-size: 16px;
+}
+/* .kart {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  padding-left: 120px;
+}
+
+.kart > .avatar {
+  width: 60px;
+  height: 60px;
+  color: gray;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+} */
+
+.testimo__section {
+  margin-top: -20px;
+} 
