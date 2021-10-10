@@ -1,0 +1,8 @@
+.toggle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -10px;
+  margin-left: 20px;
+  font-size: 17px;
+}
