@@ -1,0 +1,27 @@
+:root {
+  --primary: #e1b93f;
+}
+
+.btn {
+  margin-top: -10px;
+  width: 120px;
+  color: white;
+  /* background-color: #e1b93f; */
+  margin-left: -80px;
+  margin-right: 40px;
+  font-weight: 500;
+  border-radius: 10px;
+  border: 1px solid gray;
+  cursor: pointer;
+  background-color: var(--primary);
+}
+
+.btn:hover {
+  background-color: #c29f37;
+  transition: all 0.3s ease-out;
+  background-color: transparent;
+  color: white;
+  border-radius: 10px;
+  border: 2px solid var(--primary);
+  transition: all 0.3s ease-out;
+}
